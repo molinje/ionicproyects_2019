@@ -1,0 +1,60 @@
+package
+ creacion de cencencias para aorrar codigo
+ionicconfig.json
+config.xml
+ parametros para contruccion de app nativas
+ config de parametros para las aplicaciones nativas
+gifnore
+	archivo conf donde se registran las carpetas que no se evaluaran para cambios
+www.. 
+	archivos utilizados cuando compilamos
+	para abrir aplicacion en un navegador
+        no es la aplicacion final
+resources
+ imagenes necesarias y los tamaños
+node_modules
+ donde se alojan los modulos que hemos descargado para la aplicacion
+hooks
+ comandos que se ejecutan a la hora de compilar la aplicacion
+sourcemaps
+	mapeos de codigo css y javascript.
+src
+	Todo el codigo de nuestro proyecto
+	
+	service-worker - nueva tecnologia que permite para crear un hilo de ejecucion
+	poder ejecutar dos hilos en paralelo
+   manifest.json
+	Config de inicio para nuestro compilador embebido
+   index.html
+   app 
+	app.scss permite llevar la programacion de css a un nivel superior
+                 css en cascada con herencia de clases
+        maint.ts importa el modulo de aplicacion AppModule
+		inicializa la aplicacion a partir del Modulo AppModule
+        app.scss espilos globales de tema
+        app.module 
+		Contiene el modulo de nuestra aplicacion angular
+                declaran componentes iniciales
+		se importan modules
+   		se declaran servicios globales, se llaman en la aplicacions los servicios cada vez que necesitemos
+        app.components contiene el codigo del componente principal de la aplicación        
+
+		       importadas las clases a utilizar
+			referencia al template
+                        se declara clase del componente
+			se injectan los servicios
+			platformready..cuando la aplicacion se haya cargado..se ejecuten las siguientes
+	                instrucciones
+			Formato de promesa
+       app.html         esta declarado un unico componente
+			ionnav -- barra de navegacion para la aplicacion
+asent icon
+
+pages
+contacs
+home
+			
+	      
+	
+
+

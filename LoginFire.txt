@@ -1,0 +1,30 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA9rSC7_CMQMX4EbUZTp1gbrXNIDFbzA9U",
+    authDomain: "loginionic-83b75.firebaseapp.com",
+    databaseURL: "https://loginionic-83b75.firebaseio.com",
+    projectId: "loginionic-83b75",
+    storageBucket: "",
+    messagingSenderId: "1083852919350",
+    appId: "1:1083852919350:web:09dfe40dc35cd73e777e97"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+Codigo
+npm i firebase @angular/fire
+ionic generate page register
+ionic generate page login
+ionic generate page admin
+ionic generate service services/auth .. para organizar nuestros metodos de login y register
+ionic generate guard guards/auth .. para proteger nuestras rutas
+
+Min 9:05
