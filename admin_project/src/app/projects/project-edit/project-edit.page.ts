@@ -67,7 +67,9 @@ export class ProjectEditPage implements OnInit {
      //Update
      this.projectService.updateProject(this.project, this.ProjectId).then(()=>{
        loading.dismiss();
-       this.nav.navigateForward('/');
+      // this.nav.navigateForward('/');
+      // llevamos al usuario a las lista de proyectos
+       this.nav.navigateForward('/project-list');
 
      });
 
@@ -78,6 +80,7 @@ export class ProjectEditPage implements OnInit {
      this.projectService.addProject(this.project).then(()=>{
       loading.dismiss();
       this.nav.navigateForward('/project-list');
+
     });
 
    }
@@ -95,6 +98,8 @@ export class ProjectEditPage implements OnInit {
 
     //this.todoService.getTodos(this.TodoId)
     this.projectService.removeProject(idProject);
+    this.nav.navigateForward('/project-list');
+    //this.nav.navigateForward('/');
 
   }
 

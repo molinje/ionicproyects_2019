@@ -26,7 +26,8 @@ export class ProjectsService {
 ));
 
    }
-   getProjects(){
+   //Hasta aqui va el constructor
+getProjects(){
     console.log('console.log Service ProjectsService');
     return this.projects;
 }

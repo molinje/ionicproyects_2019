@@ -26,7 +26,9 @@ const routes: Routes = [
   { path: 'project-list', loadChildren: './projects/project-list/project-list.module#ProjectListPageModule' },
   { path: 'project-create', loadChildren: './projects/project-create/project-create.module#ProjectCreatePageModule' },
   { path: 'project-edit/:id', loadChildren: './projects/project-edit/project-edit.module#ProjectEditPageModule' },
-  { path: 'project-edit', loadChildren: './projects/project-edit/project-edit.module#ProjectEditPageModule' }
+  { path: 'project-edit', loadChildren: './projects/project-edit/project-edit.module#ProjectEditPageModule' },
+  { path: 'user-list', loadChildren: './users/user-list/user-list.module#UserListPageModule' },
+  { path: 'user-edit', loadChildren: './users/user-edit/user-edit.module#UserEditPageModule' }
 ];
 
 @NgModule({
