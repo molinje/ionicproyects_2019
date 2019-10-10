@@ -28,7 +28,8 @@ const routes: Routes = [
   { path: 'project-edit/:id', loadChildren: './projects/project-edit/project-edit.module#ProjectEditPageModule' },
   { path: 'project-edit', loadChildren: './projects/project-edit/project-edit.module#ProjectEditPageModule' },
   { path: 'user-list', loadChildren: './users/user-list/user-list.module#UserListPageModule' },
-  { path: 'user-edit', loadChildren: './users/user-edit/user-edit.module#UserEditPageModule' }
+  { path: 'user-edit', loadChildren: './users/user-edit/user-edit.module#UserEditPageModule' },
+  { path: 'user-edit/:id', loadChildren: './users/user-edit/user-edit.module#UserEditPageModule' }
 ];
 
 @NgModule({

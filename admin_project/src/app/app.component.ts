@@ -25,6 +25,11 @@ export class AppComponent {
       title: 'Projects',
       url: '/project-list',
       icon: 'analytics'
+    },
+    {
+      title: 'Users',
+      url: '/user-list',
+      icon: 'people'
     }
   ];
 
